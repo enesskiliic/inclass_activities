@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int main()
+{
 
     int num;
     int range;
@@ -10,8 +11,9 @@ int main() {
     cout << "Enter range: ";
     cin >> range;
 
-    for (int i = 1; i <= range; i++) {
+    for (int i = 1; i <= range; i++)
+    {
+
         cout << num << " * " << i << " = " << num * i << endl;
     }
-    
 }
